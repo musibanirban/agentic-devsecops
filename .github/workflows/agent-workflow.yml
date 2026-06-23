@@ -90,7 +90,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: [main, master]
       
       - name: ZAP Scan
         id: zap-scan
